@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Login_Fragment"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logIn"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_Login_Fragment"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:textAlignment="center"
+        android:singleLine="true"
+        android:drawableLeft="@drawable/email"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_Login_Fragment"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/password"
+        />
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/logIn_button_Login_Fragment"
+        android:text="@string/logIn"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/button"
+        android:shadowColor="@color/black"
+        android:backgroundTint="@null"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_Login_Fragment"
+        android:text="@string/registerTextView"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="620dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot_password_Login_Fragment"
+        android:text="@string/forgotPasswordTextView"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="670dp"
+        />
+
+
+
+</RelativeLayout>

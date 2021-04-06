@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AssignmentFirst</string>
+
+    <!--LogInFragment-->
+    <string name="logIn">LogIn</string>
+    <string name="email">Enter Email</string>
+    <string name="Password">Enter Password</string>
+    <string name="registerTextView">New User?<u>Register here</u></string>
+    <string name="forgotPasswordTextView"><u>Forgot Password?</u></string>
+
+    <!--Register Fragment-->
+    <string name="register">Register</string>
+    <string name="name">Enter Name</string>
+    <string name="bDate">Enter Birth-Date</string>
+    <string name="city">Enter City</string>
+    <string name="gender">Enter Gender</string>
+    <string name="re_enterPass">Re-Enter Password</string>
+
+    <!--Dashboard Fragment-->
+    <string name="welcome">Welcome</string>
+
+
+    <!-- Profile Fragment -->
+    <string name="Profile">Profile</string>
+    <string name="ProfileName"><b>Name :</b></string>
+    <string name="ProfileEmail"><b>Email :</b></string>
+    <string name="ProfileCity"><b>City :</b></string>
+    <string name="ProfileBirthdate"><b>Birth-date :</b></string>
+    <string name="ProfileGender"><b>Gender :</b></string>
+
+
+    <!-- Header Layout -->
+    <string name="title"><b>Drawer Menu</b></string>
+
+
+    <!-- Forget Fragment -->
+    <string name="Forget"><b>Forget Password</b></string>
+    <string name="Forget_Email">Enter Your Email</string>
+    <string name="forget_button">Submit</string>
+
+
+</resources>
